@@ -1,0 +1,48 @@
+/* footer styling starts here */
+footer {
+  background-color: rgb(10, 3, 38);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 15rem;
+  padding: 3rem;
+}
+
+footer > p {
+  color: goldenrod;
+  text-align: center;
+  font-size: 2rem;
+}
+/* footer styling starts here */
+
+/* media Queries */
+
+/* 2xl */
+/* @media (max-width: 1536px) {
+} */
+
+/* xl */
+/* @media (max-width: 1280px) {
+} */
+
+/* lg */
+/* @media (max-width: 1024px) {
+} */
+
+/* md */
+/* @media (max-width: 768px) {
+} */
+
+/* sm */
+@media (max-width: 640px) {
+  footer > p {
+    color: goldenrod;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
+/* xs*/
+/* @media (max-width: 475px) {
+} */

@@ -1,0 +1,151 @@
+#contactus {
+  background-image: url(../assets/images/calculator-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block-start: 0.1rem;
+}
+
+/* contactus wrapper syling starts here */
+
+.contactus__wrapper {
+  display: flex;
+  gap: 1rem;
+  padding-block-start: 0.1rem;
+  margin-block-start: -3rem;
+}
+
+/* contactus image styling starts here */
+.contactus__image-wrapper {
+  width: 40%;
+}
+
+/* contactus image styling  endss here */
+
+/* contactus socialmedia handle styling starts here */
+.contactus__social-wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding-block-start: 2.2rem;
+}
+
+.contactus__sociallink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 2.5rem;
+}
+.contactus__sociallink > span.contactus__social-icon {
+  transition: transform 0.5s;
+}
+.contactus__sociallink:hover {
+  color: goldenrod;
+}
+.contactus__sociallink:hover > span.contactus__social-icon {
+  transform: translate3d(1rem, 0, 0);
+}
+.contactus__linktext {
+  width: 60%;
+}
+.contactus__social-icon {
+  width: 10%;
+}
+
+/* social icons style starts here */
+/* only the whatsapp icon uses diff size due to icon being a little smaller */
+.fa-whatsapp {
+  font-size: 5rem;
+}
+
+/* social icons style ends here */
+/* contactus socialmedia handle styling endss here */
+
+/* 2xl */
+/* @media (max-width: 1536px) {
+} */
+
+/* xl */
+@media (max-width: 1280px) {
+  .contactus__social-wrapper {
+    padding-block-start: 2rem;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .contactus__social-wrapper {
+    padding-block-start: 2.5rem;
+  }
+  .contactus__linktext {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+  .fa-whatsapp {
+    font-size: 3.8rem;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .contactus__image-wrapper {
+    display: flex;
+    width: 50%;
+  }
+  .contactus__linktext {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+  .contactus__social-wrapper {
+    padding-block-start: 4rem;
+    gap: 0.5rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .contactus__wrapper {
+    margin-block-start: -2rem;
+  }
+  .contactus__image-wrapper {
+    display: flex;
+    width: 53%;
+  }
+  .contactus__social-wrapper {
+    padding-block-start: 2rem;
+    gap: 0.5rem;
+  }
+  .contactus__linktext {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+  .fa-envelope {
+    font-size: 2.5rem;
+  }
+  .fa-whatsapp {
+    font-size: 3rem;
+  }
+  .fa-facebook {
+    font-size: 2.5rem;
+  }
+}
+
+/* xs*/
+@media (max-width: 475px) {
+  .contactus__image-wrapper {
+    display: none;
+  }
+  .contactus__social-wrapper {
+    width: 100%;
+  }
+  .contactus__linktext {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+}

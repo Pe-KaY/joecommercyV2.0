@@ -1,0 +1,93 @@
+#pTop {
+  min-height: 15rem;
+  background-image: url(../assets/images/cta-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+#pTop__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+/* pTop text styling starts here */
+.pTop__text {
+  color: white;
+  font-size: 1.5rem;
+}
+.greenText {
+  color: greenyellow;
+}
+.yellow {
+  color: goldenrod;
+}
+/* ptp text styling ends here */
+
+/* ptp button styling starts here */
+.pTop__buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+.Discover {
+  background-color: greenyellow;
+}
+
+.contactUs,
+.Discover {
+  padding: 1.3rem;
+}
+/* ptp button styling ends here */
+
+/* xl */
+/* @media (max-width: 1280px) {
+} */
+
+/* lg */
+@media (max-width: 1024px) {
+  .pTop__text {
+    font-size: 1.3rem;
+  }
+  .contactUs,
+  .Discover {
+    padding: 1.1rem;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .pTop__text {
+    font-size: 1.2rem;
+  }
+  .contactUs,
+  .Discover {
+    padding: 1rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  #pTop {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pTop__buttons {
+    width: 80%;
+    display: flex;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+/* xs*/
+@media (max-width: 475px) {
+  .pTop__buttons {
+    width: 100%;
+    display: flex;
+  }
+}

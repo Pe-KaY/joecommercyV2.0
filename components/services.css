@@ -124,6 +124,7 @@ i {
     width: 100%;
     font-size: 1rem;
     align-items: center;
+    text-align: center;
   }
   .services__h1 {
     text-align: center;

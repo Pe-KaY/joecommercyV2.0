@@ -2,11 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="../joecommerce/assets/images/wizztransparent.png"
-    />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,30 +13,15 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/b1d08ee4bb.js"
       crossorigin="anonymous"
     ></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>joecommerce</title>
+    <title>Dev joe</title>
   </head>
-  <!-- Start of Tawk.to Script-->
-  <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-      Tawk_LoadStart = new Date()
-    ;(function () {
-      var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0]
-      s1.async = true
-      s1.src = "https://embed.tawk.to/65ec65158d261e1b5f6afd0b/1hohmlne9"
-      s1.charset = "UTF-8"
-      s1.setAttribute("crossorigin", "*")
-      s0.parentNode.insertBefore(s1, s0)
-    })()
-  </script>
-  <!--End of Tawk.to Script-->
   <body>
     <header>
       <nav class="container">
@@ -54,10 +35,8 @@
         <ul class="nav__ul">
           <li class="nav__links"><a href="#home-section">Home</a></li>
           <li class="nav__links"><a href="#services">Services</a></li>
-          <li class="nav__links"><a href="#visionMission">About Us</a></li>
-          <li class="nav__links btn">
-            <a href="#contactus">Contact Us</a>
-          </li>
+          <li class="nav__links"><a href="#">About Us</a></li>
+          <button class="btn">Contact Us</button>
         </ul>
         <button class="hamburger">
           <span></span><span></span><span></span>
@@ -66,7 +45,7 @@
       <div class="container mobileNav">
         <ul class="mobileNav__ul">
           <li></li>
-          <li class="mobileNav__links"><a href="#home-section">Home</a></li>
+          <li class="mobileNav__links"><a href="#home">Home</a></li>
           <li class="mobileNav__links"><a href="#services">Services</a></li>
           <li class="mobileNav__links">
             <a href="#visionMission">About Us</a>
@@ -78,43 +57,29 @@
     </header>
     <section id="home-section" class="section">
       <div class="home container">
-        <h1
-          data-aos="fade-up"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="1000"
-        >
+        <h1 data-aos-duration="2000" data-aos="fade-right">
           JOECOMMERCE CONSULTS <br />
           PRIVATE LIMITED
         </h1>
         <figure class="home__logo-container">
           <img
-            data-aos="fade-up"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="1000"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
             class="home__logo"
             src="assets/images/wizztransparent.png"
             alt="logo"
           />
         </figure>
-        <h1
-          data-aos="fade-up"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="1000"
-        >
+        <h1 data-aos-duration="2000" data-aos="fade-left">
           UPGRADING YOUR BUSINESS<br />
           FINANCES
         </h1>
       </div>
     </section>
-
     <section id="services" class="section">
-      <h1 data-aos="zoom-out" class="services__headerText">our services</h1>
+      <h1 class="services__headerText">our services</h1>
       <div class="services__container container">
-        <div
-          ddata-aos="fade-up"
-          data-aos-duration="700"
-          class="services__cards"
-        >
+        <div class="services__cards">
           <span class="services__icon"
             ><i class="fa-solid fa-money-bill-trend-up"></i></span
           ><span class="services__info">
@@ -125,7 +90,7 @@
             </p>
           </span>
         </div>
-        <div data-aos="fade-up" data-aos-duration="700" class="services__cards">
+        <div class="services__cards">
           <span class="services__icon"
             ><i class="fa-brands fa-bitcoin"></i></span
           ><span class="services__info">
@@ -136,11 +101,7 @@
             </p>
           </span>
         </div>
-        <div
-          ddata-aos="fade-up"
-          data-aos-duration="700"
-          class="services__cards"
-        >
+        <div class="services__cards">
           <span class="services__icon"><i class="fa-solid fa-brain"></i></span
           ><span class="services__info">
             <h1 class="services__h1">Charge Up Your Knowledge</h1>
@@ -150,7 +111,7 @@
             </p>
           </span>
         </div>
-        <div data-aos="fade-up" data-aos-duration="700" class="services__cards">
+        <div class="services__cards">
           <span class="services__icon"><i class="fa-solid fa-headset"></i></span
           ><span class="services__info">
             <h1 class="services__h1">Fast Customer Support</h1>
@@ -160,11 +121,7 @@
             </p>
           </span>
         </div>
-        <div
-          ddata-aos="fade-up"
-          data-aos-duration="700"
-          class="services__cards"
-        >
+        <div class="services__cards">
           <span class="services__icon"
             ><i class="fa-solid fa-plane-departure"></i></span
           ><span class="services__info">
@@ -176,7 +133,7 @@
             </p>
           </span>
         </div>
-        <div data-aos="fade-up" data-aos-duration="700" class="services__cards">
+        <div class="services__cards">
           <span class="services__icon"
             ><i class="fa-solid fa-puzzle-piece"></i></span
           ><span class="services__info">
@@ -192,31 +149,22 @@
     <section id="pTop" class="section">
       <div id="pTop__container" class="container">
         <span class="pTop__text">
-          <h1 data-aos="zoom-out">
+          <h1>
             Business <span class="yellow">Solutions,</span>
             <span class="greenText">Crypto p2p Trading(Buy and Sell)</span>
             and Investments
           </h1>
         </span>
         <div class="pTop__buttons">
-          <a href="#visionMission" data-aos="fade-up" class="btn Discover"
-            >Discover More</a
-          ><a href="#contactus" data-aos="fade-up" class="btn contactUs"
-            >Contact Us</a
-          >
+          <button class="btn Discover">Discover More</button
+          ><button class="btn contactUs">Contact Us</button>
         </div>
       </div>
     </section>
     <section id="visionMission" class="container section">
-      <h1 data-aos="zoom-out" class="visionMission__headerText">
-        Know Us Better
-      </h1>
+      <h1 class="visionMission__headerText">Know Us Better</h1>
       <div class="visionMission__container">
-        <div
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          class="visionMission__vision-container"
-        >
+        <div class="visionMission__vision-container">
           <h2 class="visionMission__vision-head">VISION</h2>
           <p class="visionMission__visionText">
             "To promote Indian localization to standardization and foster a
@@ -227,11 +175,7 @@
             staff on their respective field of activity.”
           </p>
         </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          class="visionMission__mission-container"
-        >
+        <div class="visionMission__mission-container">
           <h2 class="visionMission__mission-head">MISSION</h2>
           <p class="visionMission__missionText">
             "Our mission is to empower individuals and organizations with the
@@ -247,14 +191,14 @@
     <div class="white"></div>
     <section id="contactus">
       <div class="contactus__wrapper container">
-        <div data-aos="zoom-out-right" class="contactus__image-wrapper">
+        <div class="contactus__image-wrapper">
           <img
             class="contantus__image"
             src="assets/images/calculator-image.png"
             alt="contaceImage"
           />
         </div>
-        <div data-aos="fade-up" class="contactus__social-wrapper">
+        <div class="contactus__social-wrapper">
           <a
             class="contactus__sociallink"
             href="mailto:joecommerceconsultspvt@zohomail.in"
@@ -277,14 +221,14 @@
         </div>
       </div>
     </section>
-    <footer data-aos="fade-up">
+    <footer>
       <p>Registered Address</p>
       <p>©Joecommerceconsults Private Ltd. All Rights Reserved</p>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- <script>
+    <script>
       AOS.init()
-    </script> -->
+    </script>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

@@ -148,7 +148,7 @@ header[menu-open] .mobileNav {
 /* md */
 @media (max-width: 768px) {
   header {
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 10px 10px;
   }
   .nav__ul {
     display: none;

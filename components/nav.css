@@ -41,7 +41,7 @@ nav {
   transition: color 0.3s;
 }
 .nav__links > a {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: white;
   text-decoration: none;
 }
@@ -179,5 +179,8 @@ header[menu-open] .mobileNav {
   .logo-container {
     margin-left: -1.5rem;
     min-height: 5rem;
+  }
+  .mobileNav__ul {
+    font-size: 1.2rem;
   }
 }

@@ -25,9 +25,11 @@ text {
   stroke-dasharray: 200;
 }
 
-@media (max-width: 475px) {
+@media (max-width: 536px) {
   svg {
     width: 100%;
-    font-size: 100vw;
+  }
+  text {
+    font-size: 3rem;
   }
 }

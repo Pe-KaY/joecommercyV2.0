@@ -11,7 +11,13 @@ html {
 body {
   background-color: white;
   font-family: "Roboto", sans-serif;
+  
 }
+
+.afterload{
+  display: none;
+}
+
 
 img,
 svg,

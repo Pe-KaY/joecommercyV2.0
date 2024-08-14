@@ -22,7 +22,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joecommerce</title>
   </head>
+  <!-- loading animation -->
   <body>
+    <div class="loading">
+      <svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+        <text
+          x="50%"
+          y="50%"
+          font-size="24"
+          fill="black"
+          font-family="Arial"
+          text-anchor="middle"
+          dominant-baseline="middle"
+        >
+          JoeCommerce
+          <animate
+            attributeName="stroke-dasharray"
+            from="0, 200"
+            to="200, 0"
+            dur="5s"
+            fill="freeze"
+          />
+          <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-200"
+            dur="5s"
+            fill="freeze"
+          />
+        </text>
+      </svg>
+    </div>
+    <!-- loading ends here -->
     <header>
       <nav class="container">
         <figure class="logo-container">
@@ -102,7 +133,9 @@
           <span class="services__icon"
             ><i class="fa-brands fa-bitcoin"></i></span
           ><span class="services__info">
-            <h1 class="services__h1">Cryptocurrency and VDA Education</h1>
+            <h1 class="services__h1">
+              Virtual Currencies Trading and VDA Education
+            </h1>
             <p>
               Blockchain Technology. Virtual Currencies. Cryptotrading
               Strategies. Wallet Security
@@ -175,7 +208,9 @@
         <span class="pTop__text">
           <h1 data-aos="fade-up" data-aos-duration="1000">
             Business <span class="yellow">Solutions,</span>
-            <span class="greenText">Crypto p2p Trading(Buy and Sell)</span>
+            <span class="greenText">
+              Virtual Currencies, Trading(Buy and Sell)</span
+            >
             and Investments
           </h1>
         </span>
@@ -232,6 +267,41 @@
             standardization.” “Ensuring Transparency, Trustworthy and
             Tranquility in Business Transactions📉🏦”
           </p>
+        </div>
+      </div>
+    </section>
+    <section id="extraImages" class="container section">
+      <div class="extraImages__wrapper">
+        <div class="extraImages" data-aos="fade-right" data-aos-duration="1500">
+          <img src="./assets/images/importExport.jpg" alt="stock market" />
+          <div class="imgDescription">
+            <h1>Import and Export</h1>
+            <p>
+              Facilitate seamless global trade with our reliable import and
+              export solutions, ensuring efficient and secure transactions
+              across borders.
+            </p>
+          </div>
+        </div>
+        <div class="extraImages" data-aos="fade-up" data-aos-duration="1700">
+          <img src="./assets/images/forextrailning.jpg" alt="stock market" />
+          <div class="imgDescription">
+            <h1>Forex Training</h1>
+            <p>
+              Learn proven strategies and techniques to trade forex
+              successfully, from beginners to advanced levels.
+            </p>
+          </div>
+        </div>
+        <div class="extraImages" data-aos="fade-left" data-aos-duration="1900">
+          <img src="./assets/images/VirtualCurrency.jpg" alt="stock market" />
+          <div class="imgDescription">
+            <h1>Virtual Currencies Trading</h1>
+            <p>
+              Exchange cryptocurrencies with us securely, with expert support
+              and real-time market insights to guide your trades.
+            </p>
+          </div>
         </div>
       </div>
     </section>

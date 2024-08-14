@@ -74,6 +74,11 @@
     width: 60%;
   }
 }
+@media (max-width: 640px) {
+  .extraImages {
+    width: 80%;
+  }
+}
 
 @media (max-width: 640px) {
   .imgDescription {

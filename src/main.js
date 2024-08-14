@@ -10,6 +10,7 @@ import "../components/visionMission.css"
 import "../components/contactus.css"
 import "../components/footer.css"
 import "../components/xtraImages.css"
+import "../components/policies.css"
 import "../styles/utils.css"
 
 // import functions

@@ -1,0 +1,59 @@
+#privacyRefund {
+  min-height: 15rem;
+  display: flex;
+  gap: 1rem;
+  margin-block: 1rem;
+  padding: 2rem;
+  margin-block: 1rem;
+}
+.privacy {
+  border: 2px solid goldenrod;
+  background-color: rgba(172, 255, 47, 0.145);
+}
+.refund {
+  border: 2px solid goldenrod;
+  background-color: rgba(218, 165, 32, 0.148);
+}
+
+.privacy,
+.refund {
+  width: 50%;
+  overflow: auto;
+  height: 15rem;
+  box-shadow: 0px 0px 10px rgb(107, 104, 104);
+  border-radius: 0 2rem;
+  padding: 0.5rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.policyHead {
+  font-size: 2rem;
+  text-align: center;
+  margin-block-end: 1rem;
+  text-decoration: underline;
+}
+.policyDescription {
+  font-size: 1rem;
+}
+.returnpolicy {
+  overflow: auto;
+  height: 80%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+  #privacyRefund {
+    flex-direction: column;
+  }
+  .privacy,
+  .refund {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .policyHead {
+    font-size: 1.2rem;
+  }
+}

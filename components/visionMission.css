@@ -24,7 +24,6 @@
 /* vision styling starts here */
 
 .visionMission__vision-container {
-  border: 2px solid green;
   min-height: 20rem;
   padding: 1rem;
   border-radius: 50px 0px;
@@ -51,7 +50,6 @@
 /* Mission styling starts here */
 
 .visionMission__mission-container {
-  border: 2px solid green;
   min-height: 20rem;
   padding: 1rem;
   border-radius: 50px 0px;
